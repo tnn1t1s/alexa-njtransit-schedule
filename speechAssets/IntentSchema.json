@@ -1,0 +1,21 @@
+{
+  "intents": [
+    {
+      "intent": "GetNextTrainIntent",
+      "slots": [
+        {
+          "name": "fromStation",
+          "type": "LITERAL"
+        },
+        {
+          "name": "toStation",
+          "type": "LITERAL"
+        }
+      ]
+    },
+    {
+      "intent": "HelpIntent",
+      "slots": []
+    }
+  ]
+}
